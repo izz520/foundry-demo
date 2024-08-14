@@ -1,0 +1,39 @@
+[
+	{
+		"elements": [
+			{
+				"type": "pragma",
+				"name": "^0.8.22",
+				"source_mapping": {
+					"start": 39,
+					"length": 24,
+					"filename_relative": "src/Counter.sol",
+					"filename_absolute": "/Users/yasol/contract_project/hello-foundry/src/Counter.sol",
+					"filename_short": "src/Counter.sol",
+					"is_dependency": false,
+					"lines": [
+						2
+					],
+					"starting_column": 1,
+					"ending_column": 25,
+					"_ext_source_hash": "f7ea4a1b94188ba16994c1606285d40f"
+				},
+				"type_specific_fields": {
+					"directive": [
+						"solidity",
+						"^",
+						"0.8",
+						".22"
+					]
+				}
+			}
+		],
+		"description": "Version constraint ^0.8.22 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- VerbatimInvalidDeduplication.\nIt is used by:\n\t- ^0.8.22 (src/Counter.sol#2)\n",
+		"markdown": "Version constraint ^0.8.22 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- VerbatimInvalidDeduplication.\nIt is used by:\n\t- [^0.8.22](src/Counter.sol#L2)\n",
+		"first_markdown_element": "src/Counter.sol#L2",
+		"id": "060d39cbb4ccf3fde85fd7e9777c437a521bdd38d552de51977a05c10450ebf3",
+		"check": "solc-version",
+		"impact": "Informational",
+		"confidence": "High"
+	}
+]

@@ -2,5 +2,6 @@
 src = "src"
 out = "out"
 libs = ["lib"]
-
+# 自动依照合约内容侦测所使用的 solidity compiler 版本
+auto_detect_solc = true
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
